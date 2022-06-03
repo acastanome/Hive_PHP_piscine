@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mendeleev</title>
+
+    <!-- grid for layout, flexbox for elements, and tables are oldschool, -->
+    <!-- said Mr Kangas, on a windy friday afternoon-->
+
+    <style>
+      /* * { */
+      /* margin: 0; */
+      /* padding: 0; */
+      /* } */
+
+      #main_header {
+        color: black;
+        text-align: center;
+        font-size: 2vw;
+      }
+      .grid-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2em;
+        border: 5px solid black;
+      }
+
+      .grid-top {
+        display: grid;
+        grid-template-columns: repeat(18, 1fr);
+        /* grid-template-rows: 7fr; */
+        grid-gap: 0.3em;
+        border: 5px solid yellow;
+      }
+
+      .grid-top-rows {
+        display: grid;
+        grid-template-rows: repeat(7, 1fr);
+        grid-gap: 0.3em;
+        /* border: 5px solid green; */
+      }
+
+      .grid-bottom {
+        display: grid;
+        grid-template-columns: 15fr;
+        grid-gap: 0.1em;
+        border: 5px solid purple;
+      }
+
+      .element {
+        text-align: center;
+        font-size: 3vw;
+        font-weight: bold;
+        padding: 0 3px 3px 3px;
+        /* border: 5px solid blue; */
+      }
+
+      .non-metal {
+        background-color: rgb(168, 164, 164);
+      }
+
+      .alkali {
+        background-color: rgb(234, 162, 99);
+      }
+
+      .alkaline {
+        background-color: red;
+      }
+
+      .transition_metal {
+        background-color: yellow;
+      }
+
+      .metal {
+        background-color: green;
+      }
+
+      .metalloid {
+        background-color: greenyellow;
+      }
+
+      .halogen {
+        background-color: lightblue;
+      }
+
+      .noble_gas {
+        background-color: rgb(72, 150, 228);
+      }
+
+      .lanthanide {
+        background-color: rgb(118, 86, 145);
+      }
+
+      .actinide {
+        background-color: pink;
+      }
+
+      .atomic_nb {
+        float: left;
+        font-weight: normal;
+        font-size: 0.9vw;
+      }
+
+      .atomic_weight {
+        float: right;
+        font-weight: normal;
+        font-size: 0.9vw;
+      }
+
+      .clear {
+        clear: both;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header id="main_header">
+      <h1>PERIODIC TABLE OF THE ELEMENTS</h1>
+    </header>
+
+    <div class="grid-wrapper">
+      <div class="grid-top">
+        <div class="grid-top-rows">
+          <div class="element non-metal">
+            <p>H</p>
+            <small class="atomic_nb">1</small>
+            <small class="atomic_weight">1.0079</small>
+          </div>
+          <div class="element alkali">
+            <p>Li</p>
+            <small class="atomic_nb">3</small>
+            <small class="atomic_weight">6.941</small>
+          </div>
+          <div class="element alkali">
+            <p>Na</p>
+            <small class="atomic_nb">11</small>
+            <small class="atomic_weight">22.989</small>
+          </div>
+          <div class="element alkali">
+            <p>K</p>
+          </div>
+          <div class="element alkali">
+            <p>Rb</p>
+            <small class="atomic_nb">1</small>
+            <small class="atomic_weight">1.0079</small>
+          </div>
+          <div class="element alkali">
+            <p>Cs</p>
+          </div>
+          <div class="element alkali">
+            <p>Fr</p>
+          </div>
+        </div>
+
+        <div class="grid-top-rows">
+          <div></div>
+          <div class="element alkaline">
+            <p>Be</p>
+            <small class="atomic_nb">4</small>
+            <small class="atomic_weight">9.0122</small>
+          </div>
+        </div>
+
+        <div class="grid-top-rows">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div class="element transition_metal">
+            <p>Sc</p>
+            <small class="atomic_nb">21</small>
+            <small class="atomic_weight">44.955</small>
+          </div>
+        </div>
+        <div class="grid-top-rows">
+          <div class="element">
+            <p>H</p>
+          </div>
+        </div>
+        <div class="grid-top-rows">
+          <div class="element">
+            <p>H</p>
+          </div>
+        </div>
+        <div class="grid-top-rows">
+          <div class="element">
+            <p>H</p>
+          </div>
+        </div>
+        <div class="grid-top-rows">
+          <div class="element">
+            <p>H</p>
+          </div>
+        </div>
+        <div class="grid-top-rows">
+          <div class="element">
+            <p>H</p>
+          </div>
+        </div>
+        <div class="grid-top-rows">
+          <div class="element">
+            <p>H</p>
+          </div>
+        </div>
+        <div class="grid-top-rows">
+          <div class="element">
+            <p>H</p>
+          </div>
+        </div>
+        <div class="grid-top-rows">
+          <div class="element">
+            <p>H</p>
+          </div>
+        </div>
+        <div class="grid-top-rows">
+          <div class="element">
+            <p>H</p>
+          </div>
+        </div>
+        <div class="grid-top-rows">
+          <div class="element">
+            <p>H</p>
+          </div>
+        </div>
+        <div class="grid-top-rows">
+          <div class="element">
+            <p>H</p>
+          </div>
+        </div>
+        <div class="grid-top-rows">
+          <div class="element">
+            <p>H</p>
+          </div>
+        </div>
+        <div class="grid-top-rows">
+          <div class="element">
+            <p>H</p>
+          </div>
+        </div>
+        <div class="grid-top-rows">
+          <div class="element">
+            <p>H</p>
+          </div>
+        </div>
+        <div class="grid-top-rows">
+          <div class="element">
+            <p>H</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-bottom">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+        omnis excepturi repellendus, eius aliquid molestiae ea minima cum alias
+        ipsum nisi quod, voluptatibus autem ad perferendis, ratione voluptatem!
+        Nesciunt, et!
+      </div>
+      -->
+      <!-- <div class="top"></div> -->
+      <!-- <div class="bottom"></div> -->
+      <!-- <div class="element"></div> -->
+    </div>
+
+    <!-- <img -->
+    <!-- src="cat-g83bd747ea_1920.jpg" -->
+    <!-- alt="extra cat image" -->
+    <!-- height="100%" -->
+    <!-- style="float: right" -->
+    <!-- /> -->
+  </body>
+</html>
+
+<!-- grid here or for ex  03-->

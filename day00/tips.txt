@@ -1,0 +1,26 @@
+
+- extensions for vscode:
+    prettier                autoformats, easier to read, adds ending tag
+    auto complete tag       adds ending tag aand renames it automatically if starting one is changed
+    liveserver              go live, see changes in browser
+
+-localhost:5500 :D
+
+- HTML Crash Course For Absolute Beginners, by Traversy Media
+    https://www.youtube.com/watch?v=UB1O30fR-EE
+
+    ctrl + u in browser: shows code being parsed
+    f12 developer tools. you can edit things here, stays until page is refreshed
+    LOREM + enter       generates text to
+
+
+- CSS Crash Course (Cascading Stylesheets)
+    pseudo classes, esim: .my-list li:nth-child(5 or esim even){
+                                background: yellow;
+                        }
+    
+- CSS Grid layout crash Course
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows:100px; or grid-auto-rows: minmax(100px, auto); minmax function

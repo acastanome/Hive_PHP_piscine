@@ -1,0 +1,141 @@
+body {
+  position: relative;
+  min-width: 1890px;
+  min-height: 10px;
+  background-color: rgba(80, 80, 80, 255);
+  margin-top: 13px;
+}
+
+header {
+  width: 1420px;
+  height: 140px;
+  box-sizing: border-box;
+  background-color: rgba(144, 144, 144, 255);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px black;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.middle_container {
+  position: relative;
+  width: 1360px;
+  margin: auto;
+  text-align: center;
+}
+
+.left_menu {
+  width: 140px;
+  height: 425px;
+  background-color: rgba(144, 144, 144, 255);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px black;
+  display: block;
+  float: left;
+}
+
+.middle_menu {
+  width: 1020px;
+  height: 585px;
+  border-radius: 10px;
+  background-color: rgba(144, 144, 144, 255);
+  box-shadow: 10px 10px 5px black;
+  display: block;
+  float: left;
+  margin-left: 30px;
+}
+
+.right_menu {
+  width: 140px;
+  height: 425px;
+  background-color: rgba(144, 144, 144, 255);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px black;
+  display: block;
+  float: left;
+  margin-left: 30px;
+}
+
+#logo {
+  height: 110px;
+  float: left;
+}
+#glass {
+  margin-left: 700px;
+
+  float: left;
+}
+.top_icons {
+  width: 20px;
+  height: 20px;
+  float: right;
+  display: block;
+  margin-right: 7px;
+}
+#cross {
+  margin-top: 80px;
+}
+
+.left_icons {
+  height: 70px;
+  margin-top: 10px;
+}
+#look {
+  border: 5px solid red;
+  border-radius: 5px;
+}
+
+#cluster {
+  width: 1000px;
+  margin-top: 11px;
+}
+
+#book {
+  width: 70px;
+  margin-top: 10px;
+}
+
+#towel {
+  width: 70px;
+}
+
+#brick {
+  width: 118px;
+  height: 70px;
+  background: url(./resources/brick.jpg);
+  margin-left: 11px;
+}
+
+.bottom_box {
+  width: 520px;
+  height: 170px;
+  background-color: rgba(136, 255, 137, 255);
+  box-shadow: 10px 10px 5px black;
+  border-radius: 10px;
+  font-family: sans-serif, Verdana, Geneva, Tahoma;
+  position: absolute;
+  display: block;
+  margin-left: -75px;
+  margin-top: 505px;
+  text-align: left;
+}
+p {
+  letter-spacing: 0.7px;
+  font-style: lighter;
+}
+.ordinateurs {
+  text-shadow: 5px 5px 5px rgba(255, 0, 0, 1);
+}
+.entrez {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 32px;
+}
+input {
+  border: solid #9d969d 1px;
+  margin-right: 5px;
+}
+.text_box {
+  width: 365px;
+}

@@ -1,2 +1,3 @@
 # Hive_PHP_piscine
-Preparation for the 2 week PHP_piscine
+
+2 weeks intensive learning: HTML, CSS, PHP, mySQL, JavaScipt, jQuery, AJAX.
